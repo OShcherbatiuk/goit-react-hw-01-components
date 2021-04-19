@@ -11,7 +11,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => (
         className={styles.avatar}
       />
       <p className={styles.name}>{name}</p>
-      <p className={styles.tag}>{tag}</p>
+      <p className={styles.tag}>@{tag}</p>
       <p className={styles.location}>{location}</p>
     </div>
 
