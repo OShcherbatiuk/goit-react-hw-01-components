@@ -1,5 +1,5 @@
 import Profile from './components/Profile/Profile'
-// import Statistics from './components/Statistics/Statistics'
+import Statistics from './components/Statistics/Statistics'
 import FriendList from './components/FriendList/FriendList'
 import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 
@@ -11,7 +11,7 @@ import transactions from './components/TransactionHistory/transactions.json';
 const App = () => {
     return (
         <div className="App">
-            <Profile11
+            <Profile
                 avatar={user.avatar}
                 name={user.name}
                 tag={user.tag}
