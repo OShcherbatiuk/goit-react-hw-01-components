@@ -1,0 +1,40 @@
+.list {
+  margin-left: 20px;
+  width: 200px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 5px 10px;
+  border: 1px solid rgb(238, 204, 204);
+  border-radius: 3px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.online {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: chartreuse;
+  margin-right: 5px;
+}
+.offline {
+  composes: online;
+  background-color: red;
+}
